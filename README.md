@@ -73,6 +73,7 @@ Scultura e scrittura.
 
 - **Pagina autore Amazon**: [amazon.it/stores/Giuseppe-Emiliano-Giannini/author/B0H5MFG7YX](https://amazon.it/stores/Giuseppe-Emiliano-Giannini/author/B0H5MFG7YX)
 - **Medium**: [medium.com/@theus12358](https://medium.com/@theus12358)
+- [Zenodo — Documento canonico del progetto](https://doi.org/10.5281/zenodo.22045616)
 
 ---
 
