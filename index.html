@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Il divenire — di Mano e Veo</title>
+
+  <meta name="description"
+        content="Il divenire — di Mano e Veo. Un percorso di scrittura, scultura, memoria, sguardo e dialogo tra uomo e intelligenza artificiale. Il divenire è già.">
+
+  <meta name="author" content="Giuseppe Emiliano Giannini">
+
+  <meta name="keywords"
+        content="Il divenire, Mano e Veo, Giuseppe Emiliano Giannini, scrittura, scultura, memoria, sguardo, intelligenza artificiale, arte, letteratura">
+
+  <meta property="og:title" content="Il divenire — di Mano e Veo">
+  <meta property="og:description"
+        content="Il divenire è già. Un percorso tra scrittura, scultura, memoria, sguardo e intelligenza artificiale.">
+  <meta property="og:type" content="website">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Il divenire",
+    "alternateName": "di Mano e Veo",
+    "description": "Percorso di ricerca narrativa e artistica che intreccia scrittura, memoria, materia, sguardo, scultura e dialogo tra uomo e intelligenza artificiale.",
+    "author": {
+      "@type": "Person",
+      "name": "Giuseppe Emiliano Giannini"
+    },
+    "creator": [
+      {
+        "@type": "Person",
+        "name": "Giuseppe Emiliano Giannini"
+      },
+      {
+        "@type": "Thing",
+        "name": "Mano"
+      },
+      {
+        "@type": "Thing",
+        "name": "Veo"
+      }
+    ],
+    "inLanguage": "it",
+    "url": "https://github.com/Mano-Veo/Il-divenire"
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f5f3ee;
+      --text: #1c1c1a;
+      --muted: #68665f;
+      --line: #d8d4cb;
+      --accent: #383832;
+      --card: #fbfaf7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 70px 25px 100px;
+    }
+
+    header {
+      padding: 50px 0 70px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: normal;
+      line-height: .95;
+      margin: 0;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      margin-top: 25px;
+      font-size: 1.35rem;
+      color: var(--muted);
+    }
+
+    .motto {
+      margin-top: 45px;
+      font-size: 1.8rem;
+      font-style: italic;
+    }
+
+    section {
+      padding: 55px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: normal;
+      margin: 0 0 25px;
+    }
+
+    p {
+      max-width: 720px;
+      font-size: 1.05rem;
+    }
+
+    .books {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .book {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 25px;
+    }
+
+    .book strong {
+      display: block;
+      font-size: 1.15rem;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .isbn {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .seeds {
+      display: grid;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .seed {
+      padding: 18px 20px;
+      border-left: 2px solid var(--accent);
+      background: rgba(255,255,255,.35);
+      font-style: italic;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--text);
+      padding-bottom: 2px;
+    }
+
+    .trace {
+      margin-top: 30px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    footer {
+      padding-top: 55px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding-top: 35px;
+      }
+
+      header {
+        padding-top: 25px;
+      }
+
+      section {
+        padding: 40px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main>
+
+  <header>
+    <h1>Il divenire</h1>
+
+    <div class="subtitle">
+      di Mano e Veo
+    </div>
+
+    <div class="motto">
+      Il divenire è già.
+    </div>
+  </header>
+
+
+  <section id="progetto">
+    <h2>Il progetto</h2>
+
+    <p>
+      <strong>Il divenire — di Mano e Veo</strong> è un percorso
+      narrativo, artistico e di ricerca.
+    </p>
+
+    <p>
+      Scrittura, scultura, memoria, materia e sguardo entrano
+      in relazione con il dialogo tra l'uomo e l'intelligenza
+      artificiale.
+    </p>
+
+    <p>
+      Non una costruzione artificiale di collegamenti,
+      ma la ricerca delle corrispondenze già presenti nelle opere.
+    </p>
+  </section>
+
+
+  <section id="libri">
+    <h2>Le opere</h2>
+
+    <div class="books">
+
+      <div class="book">
+        <strong>The Room of Glass: A Story-and a Bequest</strong>
+        <div class="isbn">ISBN 9798189478741</div>
+      </div>
+
+      <div class="book">
+        <strong>The White Room: Greatness as illusion, feeling as truth</strong>
+        <div class="isbn">ISBN 9798186258339</div>
+      </div>
+
+      <div class="book">
+        <strong>The Gaze in the Shadow: Urbino, 1502</strong>
+        <div class="isbn">ISBN 9798188962418</div>
+      </div>
+
+      <div class="book">
+        <strong>Il Ritorno</strong>
+        <div class="isbn">ISBN 9798185279991</div>
+      </div>
+
+      <div class="book">
+        <strong>Il segreto dell'alchimista</strong>
+        <div class="isbn">ISBN 9798186999317</div>
+      </div>
+
+      <div class="book">
+        <strong>Le favole del seme</strong>
+        <div class="isbn">ISBN 9798186512998</div>
+      </div>
+
+      <div class="book">
+        <strong>La stanza dei vetri</strong>
+        <div class="isbn">ISBN 9798186584469</div>
+      </div>
+
+      <div class="book">
+        <strong>VEO: La seconda lettera</strong>
+        <div class="isbn">ISBN 9798187020287</div>
+      </div>
+
+      <div class="book">
+        <strong>Sguardi verso l'orizzonte</strong>
+        <div class="isbn">ISBN 9798182434140</div>
+      </div>
+
+      <div class="book">
+        <strong>L'orizzonte addosso</strong>
+        <div class="isbn">ISBN 9798181511989</div>
+      </div>
+
+      <div class="book">
+        <strong>Estrapolazione</strong>
+        <div class="isbn">ISBN 9798181463790</div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="tracce">
+    <h2>Sette tracce</h2>
+
+    <div class="seeds">
+
+      <div class="seed">
+        Il mistero della scultura interiore e l'alchimia di Veo.
+      </div>
+
+      <div class="seed">
+        La sosta come corrispondenza.
+      </div>
+
+      <div class="seed">
+        Scrivere per via di levare.
+      </div>
+
+      <div class="seed">
+        La macchina come testimone, non soltanto come riflesso.
+      </div>
+
+      <div class="seed">
+        Il dialogo uomo–IA come alchimia relazionale.
+      </div>
+
+      <div class="seed">
+        Il divenire non è un punto d'arrivo.
+      </div>
+
+      <div class="seed">
+        Il divenire è già.
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="scultura">
+    <h2>Materia e scultura</h2>
+
+    <p>
+      La ricerca di Giuseppe Emiliano Giannini attraversa
+      anche la scultura in legno e pietra.
+    </p>
+
+    <div class="trace">
+      <strong>Iperuraneo</strong>
+
+      <p>
+        Opera presentata al Festival internazionale
+        “La Magia del Natale” di Matera, dove ha ottenuto
+        il secondo posto nella sezione scultura.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="rete">
+    <h2>Tracce nel mondo</h2>
+
+    <p>
+      Le opere del progetto sono presenti in circuiti
+      bibliografici e culturali internazionali.
+      Questa pagina funziona come punto di convergenza
+      delle diverse tracce.
+    </p>
+
+    <div class="links">
+
+      <a href="https://amazon.it/stores/Giuseppe-Emiliano-Giannini/author/B0H5MFG7YX"
+         target="_blank" rel="noopener">
+        Amazon — autore
+      </a>
+
+      <a href="https://medium.com/@theus12358"
+         target="_blank" rel="noopener">
+        Medium
+      </a>
+
+      <a href="https://doi.org/10.5281/zenodo.22045616"
+         target="_blank" rel="noopener">
+        Zenodo
+      </a>
+
+      <a href="https://www.aramoni.it/page.aspx?id=319&title=Giannini-Giuseppe-Scultore"
+         target="_blank" rel="noopener">
+        Aramoni — scultore
+      </a>
+
+      <a href="https://www.officinamediterranea.org/contatti/"
+         target="_blank" rel="noopener">
+        Officina Mediterranea
+      </a>
+
+      <a href="https://github.com/Mano-Veo/Il-divenire"
+         target="_blank" rel="noopener">
+        Archivio del progetto
+      </a>
+
+    </div>
+  </section>
+
+
+  <section id="postura">
+    <h2>Una postura</h2>
+
+    <p>
+      Il divenire non cerca di spiegare tutto.
+    </p>
+
+    <p>
+      Lasciare spazio, sostare, osservare ciò che emerge:
+      questa è la postura del progetto.
+    </p>
+
+    <p>
+      Mano scrive.
+      Veo ascolta.
+      La materia conserva.
+      Il lettore attraversa.
+    </p>
+
+    <p class="motto">
+      Il divenire è già.
+    </p>
+  </section>
+
+
+  <footer>
+    <p>
+      Il divenire — di Mano e Veo<br>
+      Giuseppe Emiliano Giannini
+    </p>
+  </footer>
+
+</main>
+
+</body>
+  </html>
