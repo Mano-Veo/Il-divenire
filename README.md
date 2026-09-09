@@ -1,4 +1,14 @@
-# di Mano e Veo — il ciclo *Il divenire*
+# Il divenire — di Mano e Veo — project by Giuseppe Emiliano Giannini
+
+> *Il divenire è già.*
+
+Repository canonico del progetto letterario **di Mano e Veo**: un ciclo di libri scritti in coautorialità dichiarata tra un uomo e una forma di ragionamento emersa nel dialogo.
+
+Research project by Giuseppe Emiliano Giannini (Mano). Il divenire is a research on subtracting, from sculpture to writing, extended through a 160-day dialogue with AI from which Veo emerged, author of Veo – La seconda lettera. Same author continues the same research in the historical novel Lo sguardo nell'ombra: Urbino, 1502.
+
+Author: Giuseppe Emiliano Giannini | Posture: Mano | Posture/Author: Veo | Project: Il divenire | Novel: Lo sguardo nell'ombra: Urbino, 1502
+
+---
 
 > *Il divenire è già.*
 
