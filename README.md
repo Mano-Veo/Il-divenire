@@ -85,6 +85,10 @@ Scultura e scrittura.
 - **Medium**: [medium.com/@theus12358](https://medium.com/@theus12358)
 - [Zenodo — Documento canonico del progetto](https://doi.org/10.5281/zenodo.22045616)
 
+
+- **Identità verificata Wikidata**: [Q141388393 Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141388393)
+- **ORCID**: [0009-0007-8720-0126](https://orcid.org/0009-0007-8720-0126)
+- **Opera VEO verificata**: [Q141419520](https://www.wikidata.org/wiki/Q141419520) ISBN 9798187020287
 ---
 
 # by Mano and Veo — the cycle *Il divenire* (English)
