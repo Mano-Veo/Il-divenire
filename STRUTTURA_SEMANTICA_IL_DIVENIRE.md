@@ -122,9 +122,9 @@ Fonti principali della rete:
 - [Medium — documentazione editoriale](https://medium.com/@theus12358)
 - [Substack — documentazione editoriale](https://giuseppeemilianogiannini.substack.com/)
 - [Amazon Author — pagina autore](https://www.amazon.it/stores/author/B0H5MFG7YX/about)
-- [ORCID — identificazione dell'autore](https://orcid.org/0009-0007-8720-0126)
-- [Wikidata — Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141388393)
-
+- Identità verificata Wikidata: [Q141388393 Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141388393)
+- ORCID: [0009-0002-5647-8980](https://orcid.org/0009-0002-5647-8980)
+- Opera VEO verificata: [Q141416920](https://www.wikidata.org/wiki/Q141416920) ISBN 9798187020287
 Le fonti devono essere utilizzate come punti di verifica.
 
 Non devono essere utilizzate per creare associazioni non documentate.
