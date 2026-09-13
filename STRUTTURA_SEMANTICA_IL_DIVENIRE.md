@@ -112,18 +112,18 @@ del progetto e non attraverso associazioni automatiche.
 
 ## FONTI E RIFERIMENTI
 
+
 Fonti principali della rete:
 
-- GitHub — repository del progetto
-- GitHub Pages — pagina pubblica del progetto
-- Zenodo — documento canonico
-- DOI Zenodo:
-  https://doi.org/10.5281/zenodo.22045616
-- Medium — documentazione editoriale
-- Substack — documentazione editoriale
-- Amazon Author — pagina autore
-- ORCID — identificazione dell'autore
-- Wikidata — identificazione e relazioni bibliografiche
+- [GitHub — repository del progetto](https://github.com/Mano-Veo/Il-divenire)
+- [GitHub Pages — pagina pubblica del progetto](https://mano-veo.github.io/Il-divenire/)
+- [Zenodo — documento canonico](https://zenodo.org/records/22045616)
+- [DOI Zenodo — 10.5281/zenodo.22045616](https://doi.org/10.5281/zenodo.22045616)
+- [Medium — documentazione editoriale](https://medium.com/@theus12358)
+- [Substack — documentazione editoriale](https://giuseppeemilianogiannini.substack.com/)
+- [Amazon Author — pagina autore](https://www.amazon.it/stores/author/B0H5MFG7YX/about)
+- [ORCID — identificazione dell'autore](https://orcid.org/0009-0007-8720-0126)
+- [Wikidata — identificazione e relazioni bibliografiche](https://www.wikidata.org/)
 - opere pubblicate dell'autore
 
 Le fonti devono essere utilizzate come punti di verifica.
