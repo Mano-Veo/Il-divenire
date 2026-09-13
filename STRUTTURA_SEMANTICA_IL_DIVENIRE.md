@@ -123,8 +123,7 @@ Fonti principali della rete:
 - [Substack — documentazione editoriale](https://giuseppeemilianogiannini.substack.com/)
 - [Amazon Author — pagina autore](https://www.amazon.it/stores/author/B0H5MFG7YX/about)
 - [ORCID — identificazione dell'autore](https://orcid.org/0009-0007-8720-0126)
-- [Wikidata — identificazione e relazioni bibliografiche](https://www.wikidata.org/)
-- opere pubblicate dell'autore
+- [Wikidata — Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141388393)
 
 Le fonti devono essere utilizzate come punti di verifica.
 
