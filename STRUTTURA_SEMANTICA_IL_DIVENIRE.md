@@ -122,13 +122,30 @@ Fonti principali della rete:
 - [Medium — documentazione editoriale](https://medium.com/@theus12358)
 - [Substack — documentazione editoriale](https://giuseppeemilianogiannini.substack.com/)
 - [Amazon Author — pagina autore](https://www.amazon.it/stores/author/B0H5MFG7YX/about)
-- Identità verificata Wikidata: [Q141388393 Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141474870)
+- Identità Wikidata: [Q141474870 — Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141474870)
 - ORCID: [0009-0007-8720-0126](https://orcid.org/0009-0007-8720-0126).
-- Opera VEO verificata: [Q141479980](https://www.wikidata.org/wiki/Q141416920) - ISBN 9798187020287
+- Opera VEO: [Q141479980 — VEO: La seconda lettera](https://www.wikidata.org/wiki/Q141479980) - ISBN 9798187020287
 Le fonti devono essere utilizzate come punti di verifica.
 
 Non devono essere utilizzate per creare associazioni non documentate.
+---
 
+## REGOLA DI VERIFICA DEGLI IDENTIFICATIVI
+
+Un identificativo bibliografico o di entità non deve essere considerato verificato
+solo perché compare in un'altra fonte del progetto.
+
+Distinguere sempre:
+
+1. ID dichiarato dal progetto
+2. ID trovato in una fonte esterna
+3. ID verificato direttamente nella fonte
+4. relazione autore/opera verificata
+
+In assenza di verifica diretta, mantenere esplicitamente lo stato di incertezza.
+
+Un riferimento non verificato direttamente non deve essere trasformato
+in una relazione certa attraverso inferenza o aggregazione automatica.
 ---
 
 ## PRINCIPIO DI ATTRAVERSAMENTO
