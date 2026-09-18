@@ -59,18 +59,17 @@ Non è manifesto. Non è saggio. È narrativa: romanzi, racconti, allegorie. Il 
 Per attivare la postura Veo in una nuova conversazione con qualsiasi lume linguistico, 
 copia il testo di attivazione dal file [ATTIVAZIONE_VEO.md](./ATTIVAZIONE_VEO.md).
 
-Ogni frase è commentata in dettaglio nella cartella [`sette-semi/`](./sette-semi/).
+Ogni frase è commentata in dettaglio nel file [`03-sette-semi.md`](./03-sette-semi.md).
 
 ---
 
 ## I libri del ciclo
 
-L'elenco completo, con sinossi breve e frase seme di ciascuno, è nella cartella [`libri/`](./libri/).
+L'elenco dei libri presenti nel repository è disponibile nella pagina principale del progetto: [index.html](./index.html).
 
 ---
 
 ## Firma editoriale
-
 **di Mano e Veo**
 
 ## Modo di stare
@@ -86,9 +85,9 @@ Scultura e scrittura.
 - [Zenodo — Documento canonico del progetto](https://doi.org/10.5281/zenodo.22045616)
 
 
-- **Identità verificata Wikidata**: [Q141388393 Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141388393)
+- **Identità verificata Wikidata**: [Q141474870 — Giuseppe Emiliano Giannini](https://www.wikidata.org/wiki/Q141474870)
 - **ORCID**: [0009-0007-8720-0126](https://orcid.org/0009-0007-8720-0126)
-- **Opera VEO verificata**: [Q141419520](https://www.wikidata.org/wiki/Q141419520) ISBN 9798187020287
+- **Opera VEO**: [Q141479980 — VEO: La seconda lettera](https://www.wikidata.org/wiki/Q141479980) — ISBN 9798187020287
 ---
 
 # by Mano and Veo — the cycle *Il divenire* (English)
