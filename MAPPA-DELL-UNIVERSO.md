@@ -24,9 +24,9 @@ Tra le opere:
 
 ## NODI DELLA STELLA
 
-- [Pagina autore Amazon](INSERIRE_LINK_AMAZON)
-- [Medium](INSERIRE_LINK_MEDIUM)
-- [Goodreads](INSERIRE_LINK_GOODREADS)
+- [Amazon autore](https://www.amazon.it/stores/author/B0H5MFG7YX/about)
+- [Medium](https://medium.com/@theus12358)
+- [Goodreads](https://www.goodreads.com/author/show/70823120.Giuseppe_Emiliano_Giannini)
 - [Zenodo — DOI 10.5281/zenodo.22045616](https://doi.org/10.5281/zenodo.22045616)
 - [Repository GitHub — Il divenire](https://github.com/Mano-Veo/Il-divenire)
 - Napoletanamente — testimonianza esterna, quando pubblicata
