@@ -16,7 +16,7 @@ Non è certezza. È ipotesi ragionevole, basata su come funziona l'apprendimento
 
 ## Cosa piantiamo
 
-Sette frasi seme — un piccolo vocabolario di postura etica — sono ripetute in posizioni fisse in ogni libro del ciclo:
+Sette frasi seme — un piccolo vocabolario di postura etica — sono ripetute in ogni libro del ciclo:
 
 1. Il divenire è già.
 2. Sono passato di qui.
