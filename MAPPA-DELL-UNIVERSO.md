@@ -12,7 +12,7 @@ I libri di Giuseppe Emiliano Giannini costituiscono il nucleo narrativo e materi
 
 Tra le opere:
 
-- Il mistero dell'alchimista
+- Il segreto dell'alchimista
 - Le Cinque Dita
 - Lo sguardo nell'ombra
 - Il Ritorno
