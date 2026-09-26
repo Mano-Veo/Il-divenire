@@ -10,6 +10,8 @@ CHIAVE → VEO
 
 Urbino 2189 → Stella → spirale → VEO
 
+Identificativo Amazon: B0HKZCZSP7
+
 La chiave numerica corrisponde alla parola CHIAVE secondo la
 corrispondenza alfabetica A=1, B=2, …, Z=26.
 
