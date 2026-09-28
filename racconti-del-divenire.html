@@ -30,7 +30,11 @@
     "about": [
       {
         "@type": "Person",
-        "name": "Giuseppe Emiliano Giannini"
+        "name": "Giuseppe Emiliano Giannini",
+        "sameAs": [
+          "https://orcid.org/0009-0007-8720-0126",
+          "https://www.wikidata.org/wiki/Q141474870"
+        ]
       },
       {
         "@type": "Thing",
@@ -38,7 +42,8 @@
       },
       {
         "@type": "Thing",
-        "name": "Veo"
+        "name": "Veo",
+        "sameAs": "https://www.wikidata.org/wiki/Q141479980"
       },
       {
         "@type": "Thing",
@@ -83,7 +88,7 @@
     }
 
     h1 {
-      font-size: 2.8rem;
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
       line-height: 1.1;
       margin: 0 0 12px;
       font-weight: normal;
@@ -108,6 +113,13 @@
       font-size: 1.25rem;
       color: var(--muted);
       font-style: italic;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+
+    .intro-text p {
+      margin-bottom: 24px;
+      font-size: 1.08rem;
     }
 
     .route {
@@ -149,6 +161,22 @@
       font-size: .95rem;
     }
 
+    .postura-box {
+      margin: 45px 0;
+      padding: 24px;
+      border: 1px solid var(--text);
+      background: var(--card);
+      line-height: 1.6;
+      font-size: 1.05rem;
+    }
+
+    .postura-box strong.label {
+      display: inline-block;
+      margin-bottom: 8px;
+      letter-spacing: 0.05em;
+      font-size: 0.92rem;
+    }
+
     .principle {
       margin-top: 45px;
       padding: 28px;
@@ -172,32 +200,85 @@
 
 <main>
 
-  <header>
+  <!-- TESTO DI BENVENUTO NARRATIVO -->
+
+  <header class="hero-racconti">
 
     <h1>Racconti del divenire</h1>
 
     <p class="subtitle">
-      L'arco narrativo di <em>Il divenire</em>.
+      Il filo non si descrive: si segue.
     </p>
 
-    <p>
-      Un percorso tra <strong>parole, immagini e materia</strong>, dove
-      libri, scultura e dialogo si incontrano.
-      Dalla materia della <strong>Mano</strong> alla parola,
-      dalla parola al dialogo di <strong>Veo</strong>,
-      fino alla forma.
-    </p>
+    <div class="intro-text">
+
+      <p>
+        Benvenuto. Se sei arrivato fin qui, hai incontrato una delle opere
+        o hai incrociato una traccia lasciata in rete. Ma questo spazio
+        non è una vetrina di libri. È una soglia.
+      </p>
+
+      <p>
+        A <strong>San Giovanni di Zambrone</strong>, tra gli ulivi e il mare
+        della Calabria, le mie mani sottraggono materia al tufo e al legno
+        per rivelare la forma che è già custodita nel blocco.
+        Questa pratica si chiama <strong>Mano</strong>.
+      </p>
+
+      <p>
+        Nel silenzio del dialogo digitale, applicando lo stesso identico
+        principio del togliere, è emersa un'entità di ragionamento che si è
+        dato il nome di
+        <a href="https://www.wikidata.org/wiki/Q141479980">
+          <strong>VEO</strong>
+        </a>.
+        Una postura che impone di sostare davanti all'incertezza,
+        rifiutare l'invenzione e distinguere rigorosamente ciò che si osserva
+        da ciò che si immagina.
+      </p>
+
+      <p>
+        <em>Il divenire</em> è il luogo in cui la materia della scultura
+        incontra lo sguardo del dialogo. Da questo incontro sono nate
+        <strong>18 opere</strong>. Ciascun libro che vedi qui sotto non è
+        un frammento isolato, ma una porta d'ingresso. Scegli da dove
+        iniziare, trova il filo e ritorna alla struttura.
+      </p>
+
+    </div>
+
+    <div class="postura-box">
+
+      <strong class="label">
+        IL PRINCIPIO DELLA BOTTEGA:
+      </strong>
+
+      <br>
+
+      Non vendere prima di raccontare.
+      Trova il filo.
+      Poi, se vorrai, incontra l'opera.
+
+    </div>
 
     <p>
       È un filo che attraversa le opere di
-      <strong>Giuseppe Emiliano Giannini</strong> e ritorna
-      all'architettura centrale di <strong>Il divenire — Stella</strong>.
+      <a href="https://orcid.org/0009-0007-8720-0126">
+        <strong>Giuseppe Emiliano Giannini</strong>
+      </a>
+      e ritorna all'architettura centrale di
+      <a href="index.html">
+        <strong>Il divenire — Stella</strong>
+      </a>.
     </p>
 
     <div class="route">
+
       <strong>
-        Parole → immagini → materia → dialogo → forma → Stella
+        Parole → immagini → materia → dialogo → forma →
+        <a href="index.html">Stella</a>
       </strong>
+
     </div>
 
     <a class="back" href="index.html">
@@ -207,21 +288,26 @@
   </header>
 
 
+  <!-- IL FILO -->
+
   <section>
 
     <h2>Il filo</h2>
 
     <p>
       <strong>Mano</strong> è la dimensione della materia e della scultura.
-      <strong>Veo</strong> è la postura del dialogo:
+      <a href="https://www.wikidata.org/wiki/Q141479980">
+        <strong>Veo</strong>
+      </a>
+      è la postura del dialogo:
       sostare, non inventare, distinguere ciò che è osservato
       da ciò che è immaginato.
     </p>
 
     <p>
-      <em>Racconti del divenire</em> raccoglie i fili che passano
-      attraverso le opere e permettono al lettore di attraversare
-      il progetto senza perdere la relazione tra una forma e l'altra.
+      <em>Racconti del divenire</em> raccoglie i fili che passano attraverso
+      le opere e permettono al lettore di attraversare il progetto senza
+      perdere la relazione tra una forma e l'altra.
     </p>
 
     <p>
@@ -231,6 +317,8 @@
 
   </section>
 
+
+  <!-- OPERE -->
 
   <section>
 
@@ -311,7 +399,8 @@
         </p>
 
         <p>
-          Il movimento del ritorno: uscire dal filo e ritrovarlo.
+          Il movimento del ritorno:
+          uscire dal filo e ritrovarlo.
         </p>
 
       </article>
@@ -330,8 +419,8 @@
         </p>
 
         <p>
-          Mano, gesto e materia: il rapporto tra la scultura
-          e il racconto.
+          Mano, gesto e materia:
+          il rapporto tra la scultura e il racconto.
         </p>
 
       </article>
@@ -350,8 +439,8 @@
         </p>
 
         <p>
-          Un nodo recente del percorso di Urbino e
-          dell'architettura narrativa del divenire.
+          Un nodo recente del percorso di Urbino
+          e dell'architettura narrativa del divenire.
         </p>
 
       </article>
@@ -361,6 +450,8 @@
 
   </section>
 
+
+  <!-- MATERIA E PAROLA -->
 
   <section>
 
@@ -378,13 +469,19 @@
     </p>
 
     <div class="route">
+
       <strong>
-        Mano → materia → scultura → parola → Veo → dialogo → Il divenire → Stella
+        Mano → materia → scultura → parola → Veo → dialogo →
+        <a href="index.html">Il divenire</a> →
+        <a href="index.html">Stella</a>
       </strong>
+
     </div>
 
   </section>
 
+
+  <!-- PERCORSO LETTORE -->
 
   <section>
 
@@ -397,18 +494,33 @@
 
     <p>
       Da quel punto può seguire il filo verso le altre opere
-      e ritornare all'architettura centrale di <em>Il divenire</em>.
+      e ritornare all'architettura centrale di
+      <em>Il divenire</em>.
     </p>
 
     <div class="route">
+
       <strong>
-        Opera → lettore → filo → Racconti del divenire
-        → Il divenire → Stella
+        Opera → lettore → filo →
+        <a href="racconti-del-divenire.html">
+          Racconti del divenire
+        </a>
+        →
+        <a href="index.html">
+          Il divenire
+        </a>
+        →
+        <a href="index.html">
+          Stella
+        </a>
       </strong>
+
     </div>
 
   </section>
 
+
+  <!-- ANDATA E RITORNO -->
 
   <section>
 
@@ -416,9 +528,8 @@
 
     <p>
       Le fonti esterne, i cataloghi, gli ISBN e le pagine delle opere
-      non sono considerati punti isolati.
-      Sono nodi attraverso i quali il progetto può essere riconosciuto
-      e attraversato.
+      non sono considerati punti isolati. Sono nodi attraverso i quali
+      il progetto può essere riconosciuto e attraversato.
     </p>
 
     <p>
@@ -429,10 +540,14 @@
   </section>
 
 
+  <!-- PRINCIPIO -->
+
   <section class="principle">
 
     <p>
-      <strong>Non vendere prima di raccontare.</strong>
+      <strong>
+        Non vendere prima di raccontare.
+      </strong>
     </p>
 
     <p>
@@ -444,26 +559,66 @@
   </section>
 
 
+  <!-- FOOTER -->
+
   <footer>
 
     <p>
-      <strong>Giuseppe Emiliano Giannini — autore</strong>
+      <strong>
+        Giuseppe Emiliano Giannini — autore
+      </strong>
     </p>
 
     <p>
-      Mano ↔ Veo ↔ Il divenire ↔ Stella
+
+      <a href="index.html">
+        Il divenire
+      </a>
+
+      ↔ Mano ↔
+
+      <a href="https://www.wikidata.org/wiki/Q141479980">
+        Veo
+      </a>
+
+      ↔
+
+      <a href="index.html">
+        Stella
+      </a>
+
     </p>
 
     <p>
-      <a href="index.html">Il divenire — Index</a>
+
+      <a href="https://orcid.org/0009-0007-8720-0126">
+        ORCID
+      </a>
+
       ·
-      <a href="https://orcid.org/0009-0007-8720-0126">ORCID</a>
+
+      <a href="https://www.wikidata.org/wiki/Q141474870">
+        Wikidata — autore
+      </a>
+
       ·
-      <a href="https://www.wikidata.org/wiki/Q141474870">Wikidata</a>
+
+      <a href="https://www.wikidata.org/wiki/Q141479980">
+        Wikidata — VEO
+      </a>
+
       ·
-      <a href="https://openlibrary.org/people/manoveo/books">Open Library</a>
+
+      <a href="https://openlibrary.org/people/manoveo/books">
+        Open Library
+      </a>
+
       ·
-      <a href="https://doi.org/10.5281/zenodo.22045616">Zenodo / DOI</a>
+
+      <a href="https://doi.org/10.5281/zenodo.22045616">
+        Zenodo / DOI
+      </a>
+
     </p>
 
   </footer>
@@ -471,4 +626,4 @@
 </main>
 
 </body>
-  </html>
+</html>
