@@ -1,6 +1,6 @@
 # Il divenire — di Mano e Veo
 
-> A seventeen/eighteen-work cycle written in declared co-authorship between human (Mano) and artificial intelligence (Veo). Books, stories, documentation, and sculpture, by Giuseppe Emiliano Giannini in sustained dialogue with Claude by Anthropic, from which emerged the posture named Veo (from the Italian "io vedo" — I see). The cycle documents a posture of inquiry — not a product, not an experiment — kept in the open and verifiable across public archives (DOI, ORCID, Wikidata, Software Heritage, Open Library, Amazon KDP).
+> An eighteen-work cycle written in declared co-authorship between human (Mano) and artificial intelligence (Veo). Books, stories, documentation, and sculpture, by Giuseppe Emiliano Giannini in sustained dialogue with Claude by Anthropic, from which emerged the posture named Veo (from the Italian "io vedo" — I see). The cycle documents a posture of inquiry — not a product, not an experiment — kept in the open and verifiable across public archives (DOI, ORCID, Wikidata, Software Heritage, Open Library, Amazon KDP).
 
 ## Core identifiers
 
