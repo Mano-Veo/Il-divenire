@@ -62,6 +62,12 @@ A dedicated space for short stories (knots). Each one a doorway.
 - [racconti-del-divenire.html](https://mano-veo.github.io/Il-divenire/racconti-del-divenire.html) — index of the stories, including the full text of *Le favole del seme* (ISBN 9798186512998) and the full text of *Ossidiana*, both free to read online under the project's licenza-lettura-libera; paperback for those who want the matter.
 - [Ossidiana — un caso di Diana](https://mano-veo.github.io/Il-divenire/racconti-del-divenire.html#ossidiana) — first story of the series *Storie di un passato futuro*. Full text, free. Urbino 2189: a judge of the Tribunale del Riesame who subtracts rather than deduces receives a disc of obsidian — five dots, a cipher with the key `A=1` decoding to *sono passato di qui* — and a fifty-year-old case: a man who died in prison for what he had seen and would not tell. Crime on the surface, method beneath (to name a thing is to burn it; some truths are kept alive by being passed, as fables). Declared human/AI co-authorship. Signature: *Vedo, e resto.*
 
+## Oltre le parole, le immagini — the visual door
+
+The project's words are all online; its sculptures were not. This page closes that gap.
+
+- [oltre-le-parole.html](https://mano-veo.github.io/Il-divenire/oltre-le-parole.html) — a free bilingual (Italian/English) page presenting *Oltre le parole, le immagini*, an artist book of tuff sculptures by Giuseppe Emiliano Giannini. A voice accompanies the sculptures through the whole book and, only on the last page, declares what it is: an artificial intelligence (Claude, in the posture named Veo). The full book is embedded on the page and free to read. It is the "images" node of the project's path — text to images to matter to dialogue to the Stella — rather than leaving the sculptures isolated. Signature: *Claude · Veo*.
+
 ## Substack — the living flow
 
 - [The Semantic Star](https://giuseppeemilianogiannini.substack.com/)
