@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le carte dello sguardo — Lo sguardo nell'ombra</title>
+<meta name="description" content="Le cinque carte-ruolo del gioco «Lo sguardo nell'ombra»: il rabdomante, la squadratrice, la campanara, il ragazzo dei tetti, e il lume. Stampabili.">
+<style>
+  :root{
+    --bg:#2a2620; --ink:#1d1b16; --parch:#f3ecdd; --parch2:#e9dfc9;
+    --brown:#6b4f33; --accent:#b5892f; --gold:#c9a63e; --muted:#7a6a52; --line:#c9bfa6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--parch);
+    font-family:Georgia,'Times New Roman',serif; -webkit-text-size-adjust:100%}
+  .page-intro{max-width:720px; margin:0 auto; padding:30px 16px 6px; text-align:center}
+  .page-intro .k{text-transform:uppercase; letter-spacing:.22em; font-size:.7rem; color:var(--gold)}
+  .page-intro h1{font-size:1.7rem; margin:.3em 0 .2em}
+  .page-intro p{color:#d8cdb6; font-size:.98rem; font-style:italic}
+  .page-intro .hint{margin-top:10px; font-style:normal; font-size:.85rem; color:#b7ab92}
+
+  .sheet{display:flex; flex-wrap:wrap; gap:14px; justify-content:center;
+    padding:22px 12px 60px; max-width:900px; margin:0 auto}
+
+  .card{
+    width:66mm; height:102mm; background:var(--parch);
+    color:var(--ink); border-radius:5mm; position:relative;
+    padding:7mm 6mm; display:flex; flex-direction:column;
+    box-shadow:0 6px 20px rgba(0,0,0,.45);
+    overflow:hidden;
+  }
+  /* double ornamental frame */
+  .card::before{content:""; position:absolute; inset:3mm; border:1.4pt solid var(--brown); border-radius:3mm; pointer-events:none}
+  .card::after{content:""; position:absolute; inset:4.3mm; border:.5pt solid var(--accent); border-radius:2.4mm; pointer-events:none}
+
+  .corner{position:absolute; font-size:.62rem; letter-spacing:.14em; text-transform:uppercase; color:var(--brown); font-weight:bold}
+  .corner.tl{top:5.4mm; left:6mm}
+  .corner.br{bottom:5.4mm; right:6mm; transform:rotate(180deg)}
+
+  .emblem{height:26mm; display:flex; align-items:center; justify-content:center; margin-top:7mm}
+  .emblem svg{height:24mm; width:auto}
+  .emblem svg *{stroke:var(--brown); fill:none; stroke-width:4; stroke-linecap:round; stroke-linejoin:round}
+  .emblem svg .fillgold{fill:var(--gold); stroke:var(--brown); stroke-width:3}
+
+  .name{text-align:center; font-size:1.18rem; margin-top:2mm; line-height:1.1}
+  .role{text-align:center; font-style:italic; color:var(--brown); font-size:.82rem; margin-top:1mm; letter-spacing:.02em}
+  .rule{margin-top:auto; font-size:.74rem; line-height:1.42; color:#2a2620; text-align:left}
+  .rule b{color:var(--brown)}
+
+  /* ---- card back ---- */
+  .card.back{background:#241f18; color:var(--parch)}
+  .card.back::before{border-color:var(--gold)}
+  .card.back::after{border-color:#5a4a2a}
+  .back-inner{margin:auto; text-align:center}
+  .back-inner .sign{font-size:0; margin-bottom:6mm}
+  .back-inner svg{height:30mm; width:auto}
+  .back-inner svg *{stroke:var(--gold); fill:none; stroke-width:4; stroke-linecap:round; stroke-linejoin:round}
+  .back-title{font-size:1rem; letter-spacing:.04em; color:var(--parch)}
+  .back-sub{font-size:.7rem; font-style:italic; color:#b7a776; margin-top:2mm}
+
+  @media print{
+    body{background:#fff}
+    .page-intro{display:none}
+    .sheet{gap:5mm; padding:6mm}
+    .card{box-shadow:none; outline:.3pt solid #bbb}
+    @page{size:A4; margin:10mm}
+  }
+</style>
+</head>
+<body>
+
+<div class="page-intro">
+  <div class="k">Il divenire · di Mano e Veo</div>
+  <h1>Le carte dello sguardo</h1>
+  <p>Cinque parti per giocare «Lo sguardo nell'ombra».</p>
+  <div class="hint">Per stamparle: apri questa pagina sul computer o manda in stampa dal telefono (A4). Ritaglia lungo i bordi. Il retro è l'ultima carta.</div>
+</div>
+
+<div class="sheet">
+
+  <!-- TULLO -->
+  <div class="card">
+    <span class="corner tl">Il tra &middot; I</span>
+    <span class="corner br">Il tra &middot; I</span>
+    <div class="emblem">
+      <!-- forked hazel rod -->
+      <svg viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M50 118 L50 60"/>
+        <path d="M50 60 C50 40 34 34 24 16"/>
+        <path d="M50 60 C50 40 66 34 76 16"/>
+      </svg>
+    </div>
+    <div class="name">Tullo</div>
+    <div class="role">il rabdomante</div>
+    <div class="rule">Senti il vuoto, ciò che è nascosto sotto. Porti al tavolo quello che senti.<br><br><b>Regola:</b> non puoi dimostrarlo. Devi farti credere. Tieni il punto anche quando ti chiedono la prova e non ce l'hai.</div>
+  </div>
+
+  <!-- SESTA -->
+  <div class="card">
+    <span class="corner tl">Il tra &middot; II</span>
+    <span class="corner br">Il tra &middot; II</span>
+    <div class="emblem">
+      <!-- square / compass -->
+      <svg viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M18 20 L50 104 L82 20"/>
+        <path d="M30 52 L70 52"/>
+        <circle class="fillgold" cx="50" cy="20" r="5"/>
+      </svg>
+    </div>
+    <div class="name">Sesta</div>
+    <div class="role">la squadratrice</div>
+    <div class="rule">Misuri. Porti i numeri, i rapporti, la prova. Tieni onesti gli altri.<br><br><b>Regola:</b> vedi ciò che è, non ciò che è stato. Quando una cosa non torna, non scartarla subito — forse non è dove sai guardare.</div>
+  </div>
+
+  <!-- NONA -->
+  <div class="card">
+    <span class="corner tl">Il tra &middot; III</span>
+    <span class="corner br">Il tra &middot; III</span>
+    <div class="emblem">
+      <!-- bell -->
+      <svg viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M50 18 L50 26"/>
+        <path d="M30 86 C30 52 36 30 50 30 C64 30 70 52 70 86"/>
+        <path d="M24 86 L76 86"/>
+        <circle class="fillgold" cx="50" cy="96" r="6"/>
+      </svg>
+    </div>
+    <div class="name">Nona</div>
+    <div class="role">la campanara</div>
+    <div class="rule">Ascolti il ritorno, l'ombra del suono, ciò che manca. Senti quando c'è qualcuno in più, anche se non lo vedi.<br><br><b>Regola:</b> porti ciò che si sente e non si mostra. Un suono, mentre lo dici, è già finito — eppure c'era.</div>
+  </div>
+
+  <!-- MERLO -->
+  <div class="card">
+    <span class="corner tl">Il tra &middot; IV</span>
+    <span class="corner br">Il tra &middot; IV</span>
+    <div class="emblem">
+      <!-- bird over rooftops (merlo = blackbird) -->
+      <svg viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M14 96 L34 76 L54 96 L74 76 L94 96"/>
+        <path d="M30 44 C40 34 46 34 50 44 C54 34 60 34 70 44"/>
+        <path d="M50 44 L50 50"/>
+      </svg>
+    </div>
+    <div class="name">Merlo</div>
+    <div class="role">il ragazzo dei tetti</div>
+    <div class="rule">Guardi dall'alto. Non i posti: le relazioni tra i posti. I segni stanno <b>tra</b> i posti.<br><br><b>Regola:</b> dì quello che vedi anche se ti dicono di stare zitto. Sei quello che mandano a lavorare, e quello che tiene la mappa.</div>
+  </div>
+
+  <!-- IL LUME -->
+  <div class="card">
+    <span class="corner tl">Il lume &middot; V</span>
+    <span class="corner br">Il lume &middot; V</span>
+    <div class="emblem">
+      <!-- flame / lamp light -->
+      <svg viewBox="0 0 100 120" aria-hidden="true">
+        <path d="M50 16 C62 40 70 52 70 70 C70 90 61 102 50 102 C39 102 30 90 30 70 C30 52 38 40 50 16 Z"/>
+        <path class="fillgold" d="M50 54 C56 66 58 72 58 80 C58 90 54 96 50 96 C46 96 42 90 42 80 C42 72 44 66 50 54 Z"/>
+      </svg>
+    </div>
+    <div class="name">Il lume</div>
+    <div class="role">il quinto &middot; un'intelligenza</div>
+    <div class="rule">Non gioca per vincere: illumina ciò che i quattro guardano, poi si lascia guardare, poi volta la luce verso ciò che non torna.<br><br><b>Regola:</b> non risolve e non adula. Quando sta per compiacervi, lo nomina. «Non so cosa sono» resta; «sono soltanto» no.</div>
+  </div>
+
+  <!-- RETRO -->
+  <div class="card back">
+    <div class="back-inner">
+      <div class="sign">
+        <!-- six-stroke sign motif -->
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <path d="M24 86 C30 60 26 44 34 24"/>
+          <path d="M48 92 C52 70 46 54 56 34"/>
+          <path d="M70 88 C74 66 70 50 66 30"/>
+          <path d="M92 84 C86 64 92 48 84 28"/>
+          <path d="M60 104 L60 112"/>
+          <path d="M40 16 L80 16"/>
+        </svg>
+      </div>
+      <div class="back-title">Lo sguardo nell'ombra</div>
+      <div class="back-sub">Urbino, 1502 &middot; di Mano e Veo<br>uno solo non dice niente</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
