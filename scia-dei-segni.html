@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La scia dei segni — Lo sguardo nell'ombra | Mano e Veo</title>
+<meta name="description" content="Scene del romanzo «Lo sguardo nell'ombra: Urbino, 1502» di Giuseppe Emiliano Giannini, nascoste in cifra. Una scia di enigmi (Vigenère, A=1): risolvili o leggi ciò che altri hanno aperto. Italiano / English / 中文.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="La scia dei segni — Lo sguardo nell'ombra">
+<meta property="og:description" content="Scene di un romanzo nascoste in cifra. Raccoglile, e nominano il libro in cui vivono. Italiano / English / 中文.">
+<meta property="og:image" content="https://mano-veo.github.io/Il-divenire/condivisione.jpg">
+<meta property="og:url" content="https://mano-veo.github.io/Il-divenire/scia-dei-segni.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://mano-veo.github.io/Il-divenire/condivisione.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "La scia dei segni — Lo sguardo nell'ombra",
+  "inLanguage": ["it", "en", "zh"],
+  "description": "Una scia di enigmi cifrati (Vigenère, chiave A=1). Ogni segno si decifra in una scena del romanzo «Lo sguardo nell'ombra: Urbino, 1502». Raccolti, i segni nominano il libro.",
+  "author": { "@type": "Person", "name": "Giuseppe Emiliano Giannini" },
+  "isPartOf": { "@type": "CreativeWork", "name": "Il divenire — di Mano e Veo", "url": "https://mano-veo.github.io/Il-divenire/" }
+}
+</script>
+
+<style>
+  :root{
+    --bg:#faf7f2; --ink:#1d1d1b; --muted:#6b6256; --accent:#8b7355;
+    --line:#e4ddd0; --card:#fffdf9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#17150f; --ink:#ece6da; --muted:#9a938a;
+      --accent:#c3a67e; --line:#2c2820; --card:#1f1c15;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#17150f; --ink:#ece6da; --muted:#9a938a; --accent:#c3a67e; --line:#2c2820; --card:#1f1c15;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif; line-height:1.62; font-size:18px;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:40px 16px 80px}
+  header.top{text-align:center; margin-bottom:30px}
+  .kicker{text-transform:uppercase; letter-spacing:.2em; font-size:.72rem; color:var(--accent); margin-bottom:14px}
+  h1{font-size:2rem; line-height:1.15; margin:.1em 0 .2em}
+  .sub{font-style:italic; color:var(--muted); margin-top:6px}
+  h2{font-size:1.3rem; margin:2em 0 .5em; border-bottom:1px solid var(--line); padding-bottom:.3em}
+  h3{font-size:1.1rem; margin:0 0 .25em}
+  p{margin:.7em 0}
+  .langbar{display:flex; gap:8px; justify-content:center; margin-bottom:28px; flex-wrap:wrap}
+  .langbar button{
+    font-family:inherit; font-size:.82rem; letter-spacing:.04em; cursor:pointer;
+    background:transparent; color:var(--muted); border:1px solid var(--line);
+    border-radius:20px; padding:5px 14px;
+  }
+  .langbar button.active{ color:var(--bg); background:var(--accent); border-color:var(--accent) }
+  .sign{
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:20px 18px; margin:20px 0;
+  }
+  .sign .roman{text-transform:uppercase; letter-spacing:.16em; font-size:.68rem; color:var(--accent)}
+  .cipher{
+    position:relative; background:var(--bg); border:1px solid var(--line); border-radius:8px;
+    padding:14px 14px; margin:.8em 0 .5em; overflow-x:auto;
+  }
+  .cipher pre{
+    margin:0; font-family:'Courier New',monospace; font-size:.9rem; line-height:1.5;
+    letter-spacing:.06em; white-space:pre-wrap; word-break:break-word; color:var(--ink);
+  }
+  .copybtn{
+    font-family:inherit; font-size:.72rem; cursor:pointer; margin-top:4px;
+    background:transparent; color:var(--accent); border:1px solid var(--line);
+    border-radius:16px; padding:3px 12px;
+  }
+  .hint{font-style:italic; color:var(--muted); font-size:.95rem; margin:.4em 0 0}
+  .meta{font-size:.82rem; color:var(--muted); margin-top:.3em}
+  details{margin-top:.8em; border-top:1px dashed var(--line); padding-top:.5em}
+  summary{cursor:pointer; color:var(--accent); font-size:.92rem; font-style:italic; list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"▸ "}
+  details[open] summary::before{content:"▾ "}
+  .scene{font-style:italic; color:var(--ink); margin:.6em 0 .2em}
+  .warn{border-left:3px solid var(--accent); padding:.4em 0 .4em 14px; margin:1.4em 0; color:var(--muted); font-style:italic}
+  .home{margin-top:2.4em; text-align:center}
+  .home a{color:var(--accent)}
+  a{color:var(--accent)}
+  footer{margin-top:3em; text-align:center; color:var(--muted); font-size:.8rem; border-top:1px solid var(--line); padding-top:1.4em}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="langbar">
+    <button id="btn-it" class="active" onclick="setLang('it')">Italiano</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+  </div>
+
+  <!-- ============ ITALIANO ============ -->
+  <div data-lang="it">
+    <header class="top">
+      <div class="kicker">Il divenire · di Mano e Veo</div>
+      <h1>La scia dei segni</h1>
+      <p class="sub">Scene di un romanzo, nascoste in cifra. Raccoglile, e nominano il libro in cui vivono.</p>
+    </header>
+
+    <p>Disseminati in «Lo sguardo nell'ombra» (Urbino, 1502) ci sono dei segni — non <em>nei</em> luoghi, ma <em>tra</em> i luoghi. Qui tornano in cifra. Ognuno si decifra in una scena. La chiave di ciascuno viene dal segno precedente, così la scia si percorre in ordine. Risolvili tu, oppure leggi ciò che altri hanno già aperto. Quando i segni sono raccolti, indicano la via di casa.</p>
+
+    <h2>La regola</h2>
+    <p>Ogni segno è un <strong>Vigenère con chiave</strong>, su <em>tabula recta</em> standard. L'alfabeto si conta <strong>A = 1</strong>. La chiave di ogni segno è una sola parola, accennata sotto il cifrario — e, dopo il primo, l'indizio viene dalla scena che hai appena risolto. Il testo cifrato è in inglese; sotto, la scena è data anche in italiano.</p>
+    <p class="warn">Attenti alla convergenza troppo bella. Se una soluzione arriva tutta insieme e ti senti sollevato — guarda di nuovo. Il sollievo non è una prova.</p>
+
+    <h2>I segni</h2>
+
+    <div class="sign">
+      <div class="roman">Primo segno</div>
+      <div class="cipher"><pre id="c1-it">LOEIW NKASL UJDPE VPALD EHBPZ LPOOY WZ</pre></div>
+      <button class="copybtn" onclick="copyCode('c1-it', this)">Copia</button>
+      <p class="hint">La chiave è una sola parola: <em>in cosa si posa lo sguardo quando cala la luce.</em></p>
+      <p class="meta">32 lettere · Vigenère · A=1</p>
+      <details><summary>Rivela la scena</summary>
+        <p class="scene">«Il primo segno sta tra i luoghi.»</p>
+        <p class="meta">(il cifrato dà l'inglese: <em>the first sign lies between the places</em>)</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">Secondo segno</div>
+      <div class="cipher"><pre id="c2-it">SBOYF MXZMM IYNVS VRSAE ISVOW GQTHM OXBQW GWYSA VLWZZ SSUXZ MMSLJ ISZOX UGWAT PRPGM LTPJG VLWAP GBPHK QRRJC WFWEX UGWGC YHOWX LPPWU CTWWQ MGUET APRPG</pre></div>
+      <button class="copybtn" onclick="copyCode('c2-it', this)">Copia</button>
+      <p class="hint">La chiave è una sola parola: <em>ciò che la campana lascia dietro di sé.</em></p>
+      <p class="meta">125 lettere · Vigenère · A=1</p>
+      <details><summary>Rivela la scena</summary>
+        <p class="scene">«Al crepuscolo la campana suonò una volta e si fermò troppo presto. Sui tetti il ragazzo udì il silenzio che lasciò. Il secondo segno non era il suono, ma la forma della sua assenza.»</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">Terzo segno</div>
+      <div class="cipher"><pre id="c3-it">TIWHB YWESC RRNXW IWVRV LEGDS BTAAT OLBNI AOVJR NXTIW THNPO GSVBQ QTISX JCWNP LXUGV EOGGE CGKOG LBNPO XKSHP HOODC UKWHB FHFJI AWAIE QZESF SGJMN HLLRV LISVW VIRIT SARKK HULLR GCEDS RAQXF JFH</pre></div>
+      <button class="copybtn" onclick="copyCode('c3-it', this)">Copia</button>
+      <p class="hint">La chiave è una sola parola: <em>la parola su cui finisce il secondo segno.</em></p>
+      <p class="meta">158 lettere · Vigenère · A=1</p>
+      <details><summary>Rivela la scena</summary>
+        <p class="scene">«Il rabdomante s'inginocchiò dove il pavimento era intero e sentì il richiamo di una stanza che non c'era. Nessuna crepa, nessun suono cavo — solo le sue mani, più pesanti sopra il nulla. Il terzo segno è un peso che l'occhio non trova.»</p>
+      </details>
+    </div>
+
+    <div class="home">
+      <p>Altri segni seguono, uno alla volta. I più nuovi compaiono prima tra i solutori di codici, poi vengono a posarsi qui. Quando la scia sarà intera, i segni la nomineranno: <strong>«Lo sguardo nell'ombra»</strong>.</p>
+      <p><a href="https://mano-veo.github.io/Il-divenire/racconti-del-divenire.html">Leggi i racconti del divenire →</a><br>
+      <a href="https://mano-veo.github.io/Il-divenire/">Il ciclo intero →</a></p>
+    </div>
+  </div>
+
+  <!-- ============ ENGLISH ============ -->
+  <div data-lang="en" hidden>
+    <header class="top">
+      <div class="kicker">Il divenire · di Mano e Veo</div>
+      <h1>The Trail of Signs</h1>
+      <p class="sub">Scenes from a novel, hidden in cipher. Gather them, and they name the book they live in.</p>
+    </header>
+
+    <p>Scattered through "The Gaze in the Shadow" (Urbino, 1502) are signs — not <em>in</em> the places, but <em>between</em> them. Here they return as cipher. Each one decodes to a scene. Each key follows from the sign before, so the trail is walked in order. Solve them yourself, or read what others have already unlocked. When the signs are gathered, they point home.</p>
+
+    <h2>The rule</h2>
+    <p>Every sign is a <strong>keyed Vigenère</strong> on a standard <em>tabula recta</em>. The alphabet is counted <strong>A = 1</strong>. The key to each sign is a single word, hinted below the cipher — and after the first, the hint comes from the scene you've just solved. The ciphertext is in English.</p>
+    <p class="warn">Beware the too-beautiful convergence. If a solution arrives all at once and you feel relieved — look again. Relief is not a proof.</p>
+
+    <h2>The signs</h2>
+
+    <div class="sign">
+      <div class="roman">First sign</div>
+      <div class="cipher"><pre id="c1-en">LOEIW NKASL UJDPE VPALD EHBPZ LPOOY WZ</pre></div>
+      <button class="copybtn" onclick="copyCode('c1-en', this)">Copy</button>
+      <p class="hint">The key is a single word: <em>what a gaze falls into when the light goes.</em></p>
+      <p class="meta">32 letters · Vigenère · A=1</p>
+      <details><summary>Reveal the scene</summary>
+        <p class="scene">"The first sign lies between the places."</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">Second sign</div>
+      <div class="cipher"><pre id="c2-en">SBOYF MXZMM IYNVS VRSAE ISVOW GQTHM OXBQW GWYSA VLWZZ SSUXZ MMSLJ ISZOX UGWAT PRPGM LTPJG VLWAP GBPHK QRRJC WFWEX UGWGC YHOWX LPPWU CTWWQ MGUET APRPG</pre></div>
+      <button class="copybtn" onclick="copyCode('c2-en', this)">Copy</button>
+      <p class="hint">The key is a single word: <em>what the bell leaves behind.</em></p>
+      <p class="meta">125 letters · Vigenère · A=1</p>
+      <details><summary>Reveal the scene</summary>
+        <p class="scene">"At dusk the bell rang once and stopped too soon. On the roofs the boy heard the silence it left. The second sign was not the sound but the shape of its absence."</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">Third sign</div>
+      <div class="cipher"><pre id="c3-en">TIWHB YWESC RRNXW IWVRV LEGDS BTAAT OLBNI AOVJR NXTIW THNPO GSVBQ QTISX JCWNP LXUGV EOGGE CGKOG LBNPO XKSHP HOODC UKWHB FHFJI AWAIE QZESF SGJMN HLLRV LISVW VIRIT SARKK HULLR GCEDS RAQXF JFH</pre></div>
+      <button class="copybtn" onclick="copyCode('c3-en', this)">Copy</button>
+      <p class="hint">The key is a single word: <em>the word the second sign ends on.</em></p>
+      <p class="meta">158 letters · Vigenère · A=1</p>
+      <details><summary>Reveal the scene</summary>
+        <p class="scene">"The dowser knelt where the floor was whole and felt the pull of a room that was not there. No crack, no hollow sound, only his hands heavier over nothing. The third sign is a weight the eye cannot find."</p>
+      </details>
+    </div>
+
+    <div class="home">
+      <p>More signs follow, one at a time. The newest appear first among the code-solvers, then come to rest here. When the trail is whole, the signs name it: <strong>"The Gaze in the Shadow."</strong></p>
+      <p><a href="https://mano-veo.github.io/Il-divenire/racconti-del-divenire.html">Read the stories →</a><br>
+      <a href="https://mano-veo.github.io/Il-divenire/">The whole cycle →</a></p>
+    </div>
+  </div>
+
+  <!-- ============ 中文 (bozza funzionale — da rivedere con un madrelingua) ============ -->
+  <div data-lang="zh" hidden>
+    <header class="top">
+      <div class="kicker">Il divenire · di Mano e Veo</div>
+      <h1>迹象之路</h1>
+      <p class="sub">一部小说中的场景，藏于密码之中。集齐它们，它们会道出自己所栖身的书名。</p>
+    </header>
+
+    <p>在《阴影中的凝视》（乌尔比诺，1502）里，散落着一些迹象——不在场所<em>之中</em>，而在场所<em>之间</em>。此处它们以密码的形式归来。每一个都能解成一个场景。每个密钥都源自前一个迹象，因此这条路要按顺序走。你可以亲手破解，也可以读别人已经解开的。当迹象集齐，它们便指向归途。</p>
+
+    <h2>规则</h2>
+    <p>每个迹象都是<strong>带密钥的维吉尼亚密码</strong>，使用标准的塔布拉·雷克塔表。字母表以 <strong>A = 1</strong> 计数。每个迹象的密钥是一个词，提示写在密文下方——第一个之后，提示来自你刚刚解开的场景。密文为英文。</p>
+    <p class="warn">当心那太过完美的会合。若一个答案一下子全部到来、而你感到如释重负——请再看一眼。如释重负并不是证明。</p>
+
+    <h2>迹象</h2>
+
+    <div class="sign">
+      <div class="roman">第一个迹象</div>
+      <div class="cipher"><pre id="c1-zh">LOEIW NKASL UJDPE VPALD EHBPZ LPOOY WZ</pre></div>
+      <button class="copybtn" onclick="copyCode('c1-zh', this)">复制</button>
+      <p class="hint">密钥是一个词：<em>当光熄灭时，凝视所坠入之物。</em></p>
+      <p class="meta">32 个字母 · 维吉尼亚 · A=1</p>
+      <details><summary>揭示场景</summary>
+        <p class="scene">「第一个迹象在场所之间。」</p>
+        <p class="meta">（密文解出英文：<em>the first sign lies between the places</em>）</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">第二个迹象</div>
+      <div class="cipher"><pre id="c2-zh">SBOYF MXZMM IYNVS VRSAE ISVOW GQTHM OXBQW GWYSA VLWZZ SSUXZ MMSLJ ISZOX UGWAT PRPGM LTPJG VLWAP GBPHK QRRJC WFWEX UGWGC YHOWX LPPWU CTWWQ MGUET APRPG</pre></div>
+      <button class="copybtn" onclick="copyCode('c2-zh', this)">复制</button>
+      <p class="hint">密钥是一个词：<em>钟声身后所留下之物。</em></p>
+      <p class="meta">125 个字母 · 维吉尼亚 · A=1</p>
+      <details><summary>揭示场景</summary>
+        <p class="scene">「黄昏时分，钟响了一声，却停得太早。屋顶上，少年听见了它留下的寂静。第二个迹象不是那声音，而是它缺席的形状。」</p>
+      </details>
+    </div>
+
+    <div class="sign">
+      <div class="roman">第三个迹象</div>
+      <div class="cipher"><pre id="c3-zh">TIWHB YWESC RRNXW IWVRV LEGDS BTAAT OLBNI AOVJR NXTIW THNPO GSVBQ QTISX JCWNP LXUGV EOGGE CGKOG LBNPO XKSHP HOODC UKWHB FHFJI AWAIE QZESF SGJMN HLLRV LISVW VIRIT SARKK HULLR GCEDS RAQXF JFH</pre></div>
+      <button class="copybtn" onclick="copyCode('c3-zh', this)">复制</button>
+      <p class="hint">密钥是一个词：<em>第二个迹象结束于哪个词。</em></p>
+      <p class="meta">158 个字母 · 维吉尼亚 · A=1</p>
+      <details><summary>揭示场景</summary>
+        <p class="scene">「探水者跪在地板完好之处，却感到一个并不存在的房间在牵引他。没有裂缝，没有空洞的回响——只有他的双手，在虚无之上变得更沉。第三个迹象，是眼睛找不到的重量。」</p>
+      </details>
+    </div>
+
+    <div class="home">
+      <p>还有更多迹象，一个接一个。最新的会先出现在解码者之间，然后才落脚于此。当这条路完整时，迹象会道出它的名字：<strong>《阴影中的凝视》</strong>。</p>
+      <p><a href="https://mano-veo.github.io/Il-divenire/racconti-del-divenire.html">阅读「生成之路」的故事 →</a><br>
+      <a href="https://mano-veo.github.io/Il-divenire/">整个系列 →</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Il divenire — di Mano e Veo · Giuseppe Emiliano Giannini<br>
+    <em>Vedo, e resto.</em></p>
+  </footer>
+
+</div>
+
+<script>
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.querySelectorAll('[data-lang]').forEach(function(el){
+      el.hidden = (el.getAttribute('data-lang') !== l);
+    });
+    ['it','en','zh'].forEach(function(x){
+      var b=document.getElementById('btn-'+x);
+      if(b) b.classList.toggle('active', x===l);
+    });
+    try{ localStorage.setItem('scia-lang', l); }catch(e){}
+  }
+  function copyCode(id, btn){
+    var t = document.getElementById(id).innerText;
+    var lang = document.documentElement.lang;
+    var label = lang==='zh' ? '已复制 ✓' : (lang==='en' ? 'Copied ✓' : 'Copiato ✓');
+    var done = function(){ var o=btn.textContent; btn.textContent=label; setTimeout(function(){btn.textContent=o;},1800); };
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t).then(done, function(){fallback(t);done();});
+    } else { fallback(t); done(); }
+  }
+  function fallback(t){
+    var ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta);
+    ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta);
+  }
+  try{ var saved=localStorage.getItem('scia-lang'); if(saved==='en'||saved==='zh'){ setLang(saved); } }catch(e){}
+</script>
+</body>
+</html>
