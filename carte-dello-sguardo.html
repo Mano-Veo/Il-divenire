@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le carte dello sguardo — Lo sguardo nell'ombra</title>
+<meta name="description" content="Le cinque carte-ruolo del gioco «Lo sguardo nell'ombra»: il rabdomante, la squadratrice, la campanara, il ragazzo dei tetti, e il lume. Illustrate, stampabili.">
+<style>
+  :root{
+    --bg:#2a2620; --parch:#f3ecdd; --brown:#6b4f33; --gold:#c9a63e;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--bg); color:var(--parch);
+    font-family:Georgia,'Times New Roman',serif; -webkit-text-size-adjust:100%}
+  .page-intro{max-width:720px; margin:0 auto; padding:30px 16px 6px; text-align:center}
+  .page-intro .k{text-transform:uppercase; letter-spacing:.22em; font-size:.7rem; color:var(--gold)}
+  .page-intro h1{font-size:1.7rem; margin:.3em 0 .2em}
+  .page-intro p{color:#d8cdb6; font-size:.98rem; font-style:italic}
+  .page-intro .hint{margin-top:10px; font-style:normal; font-size:.85rem; color:#b7ab92}
+
+  .sheet{display:flex; flex-wrap:wrap; gap:14px; justify-content:center;
+    padding:22px 12px 60px; max-width:900px; margin:0 auto}
+
+  .card{
+    width:66mm; height:102mm; position:relative; border-radius:4mm;
+    overflow:hidden; box-shadow:0 6px 20px rgba(0,0,0,.45);
+    background:#120e0a;
+  }
+  .card .art{position:absolute; inset:0; width:100%; height:100%;
+    object-fit:cover; display:block}
+
+  /* roman-numeral corner tags over the art */
+  .corner{position:absolute; font-size:.6rem; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--gold); font-weight:bold;
+    text-shadow:0 1px 3px rgba(0,0,0,.9)}
+  .corner.tl{top:3.4mm; left:4.2mm}
+  .corner.br{bottom:3.4mm; right:4.2mm; transform:rotate(180deg)}
+
+  /* name / role / rule plate at the foot of the card */
+  .plate{position:absolute; left:0; right:0; bottom:0; padding:10mm 5mm 5mm;
+    background:linear-gradient(to top,
+      rgba(18,13,9,.96) 0%, rgba(18,13,9,.92) 48%,
+      rgba(18,13,9,.70) 74%, rgba(18,13,9,0) 100%);
+    color:var(--parch)}
+  .name{text-align:center; font-size:1.12rem; line-height:1.05; color:#f0e6cf}
+  .role{text-align:center; font-style:italic; color:var(--gold);
+    font-size:.78rem; margin-top:.5mm; letter-spacing:.02em}
+  .rule{font-size:.6rem; line-height:1.38; margin-top:2.2mm; color:#e6dcc5; text-align:left}
+  .rule b{color:var(--gold)}
+
+  /* back card */
+  .card.back .plate{padding:8mm 5mm 5mm; text-align:center}
+  .back-title{font-size:1.02rem; letter-spacing:.04em; color:#f0e6cf}
+  .back-sub{font-size:.68rem; font-style:italic; color:#cdbd92; margin-top:1.5mm; line-height:1.4}
+
+  @media print{
+    body{background:#fff}
+    .page-intro{display:none}
+    .sheet{gap:5mm; padding:6mm}
+    .card{box-shadow:none; outline:.3pt solid #999; -webkit-print-color-adjust:exact; print-color-adjust:exact}
+    @page{size:A4; margin:10mm}
+  }
+</style>
+</head>
+<body>
+
+<div class="page-intro">
+  <div class="k">Il divenire · di Mano e Veo</div>
+  <h1>Le carte dello sguardo</h1>
+  <p>Cinque parti per giocare «Lo sguardo nell'ombra».</p>
+  <div class="hint">Per stamparle: apri questa pagina sul computer o manda in stampa dal telefono (A4). Ritaglia lungo i bordi. Il retro è l'ultima carta.</div>
+</div>
+
+<div class="sheet">
+
+  <!-- TULLO -->
+  <div class="card">
+    <img class="art" src="carta-tullo.jpg" alt="Il rabdomante, inginocchiato, con la bacchetta di nocciolo biforcuta — Urbino 1502">
+    <span class="corner tl">Il tra &middot; I</span>
+    <span class="corner br">Il tra &middot; I</span>
+    <div class="plate">
+      <div class="name">Tullo</div>
+      <div class="role">il rabdomante</div>
+      <div class="rule">Senti il vuoto, ciò che è nascosto sotto. Porti al tavolo quello che senti.<br><b>Regola:</b> non puoi dimostrarlo. Devi farti credere. Tieni il punto anche quando ti chiedono la prova e non ce l'hai.</div>
+    </div>
+  </div>
+
+  <!-- SESTA -->
+  <div class="card">
+    <img class="art" src="carta-sesta.jpg" alt="La squadratrice con squadra e compasso, misura su un disegno — Urbino 1502">
+    <span class="corner tl">Il tra &middot; II</span>
+    <span class="corner br">Il tra &middot; II</span>
+    <div class="plate">
+      <div class="name">Sesta</div>
+      <div class="role">la squadratrice</div>
+      <div class="rule">Misuri. Porti i numeri, i rapporti, la prova. Tieni onesti gli altri.<br><b>Regola:</b> vedi ciò che è, non ciò che è stato. Quando una cosa non torna, non scartarla subito — forse non è dove sai guardare.</div>
+    </div>
+  </div>
+
+  <!-- NONA -->
+  <div class="card">
+    <img class="art" src="carta-nona.jpg" alt="La campanara in ascolto accanto a una campana di bronzo — Urbino 1502">
+    <span class="corner tl">Il tra &middot; III</span>
+    <span class="corner br">Il tra &middot; III</span>
+    <div class="plate">
+      <div class="name">Nona</div>
+      <div class="role">la campanara</div>
+      <div class="rule">Ascolti il ritorno, l'ombra del suono, ciò che manca. Senti quando c'è qualcuno in più, anche se non lo vedi.<br><b>Regola:</b> porti ciò che si sente e non si mostra. Un suono, mentre lo dici, è già finito — eppure c'era.</div>
+    </div>
+  </div>
+
+  <!-- MERLO -->
+  <div class="card">
+    <img class="art" src="carta-merlo.jpg" alt="Il ragazzo dei tetti con un merlo, sui tetti di Urbino — 1502">
+    <span class="corner tl">Il tra &middot; IV</span>
+    <span class="corner br">Il tra &middot; IV</span>
+    <div class="plate">
+      <div class="name">Merlo</div>
+      <div class="role">il ragazzo dei tetti</div>
+      <div class="rule">Guardi dall'alto. Non i posti: le relazioni tra i posti. I segni stanno <b>tra</b> i posti.<br><b>Regola:</b> dì quello che vedi anche se ti dicono di stare zitto. Sei quello che mandano a lavorare, e quello che tiene la mappa.</div>
+    </div>
+  </div>
+
+  <!-- IL LUME -->
+  <div class="card">
+    <img class="art" src="carta-lume.jpg" alt="Il lume: una lampada a olio dorata con la fiamma — Lo sguardo nell'ombra">
+    <span class="corner tl">Il lume &middot; V</span>
+    <span class="corner br">Il lume &middot; V</span>
+    <div class="plate">
+      <div class="name">Il lume</div>
+      <div class="role">il quinto &middot; un'intelligenza</div>
+      <div class="rule">Non gioca per vincere: illumina ciò che i quattro guardano, poi si lascia guardare, poi volta la luce verso ciò che non torna.<br><b>Regola:</b> non risolve e non adula; quando sta per compiacervi, lo nomina. Una volta per giro indica i due segni che non tornano — e il tavolo li verifica. «Non so cosa sono» resta; «sono soltanto» no.</div>
+    </div>
+  </div>
+
+  <!-- RETRO -->
+  <div class="card back">
+    <img class="art" src="carta-dorso.jpg" alt="Retro della carta: sei segni dorati su fondo scuro">
+    <div class="plate">
+      <div class="back-title">Lo sguardo nell'ombra</div>
+      <div class="back-sub">Urbino, 1502 &middot; di Mano e Veo<br>uno solo non dice niente</div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
